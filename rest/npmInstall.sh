@@ -1,0 +1,1 @@
+npm install node-rest-client
