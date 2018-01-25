@@ -1,4 +1,4 @@
-SERVER="172.17.0.1:8080"
+SERVER="10.0.0.111:8080"
 
 curl -X PUT -H "Content-Type: application/json" -d '{"name":"chris","age":30}' http://$SERVER/dist-http-example/1
 curl -X PUT -H "Content-Type: application/json" -d '{"name":"adam","age":26}' http://$SERVER/dist-http-example/2
